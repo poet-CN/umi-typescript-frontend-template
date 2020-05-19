@@ -1,0 +1,25 @@
+@keyframes loading {
+    from {opacity: 1}
+    to {opacity: 0.2}
+}
+.loading_container {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin: -51px 0 0 -99px;
+    width: 198px;
+    height: 102px;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    .loading {
+        >img {
+            animation: loading 0.7s linear infinite alternate;
+            display: block;
+            width: 178px;
+            margin: 0 auto;
+        }
+    }
+}

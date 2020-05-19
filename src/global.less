@@ -1,0 +1,57 @@
+/* 全局css样式 */
+p, ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: inherit;
+}
+
+/* 基础样式 start */
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.t_center {
+    text-align: center;
+}
+
+.cp {
+    cursor: pointer;
+}
+/* 基础样式 end */
+
+/* 浮动相关 start */
+.clear_float::after {
+    display: block;
+    width: 0;
+    height: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    margin: 0;
+    clear: both;
+    content: '';
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* 浮动相关 end */
+
+/* 定位相关 start */
+.pr {
+    position: relative;
+}
+/* 定位相关 end */
